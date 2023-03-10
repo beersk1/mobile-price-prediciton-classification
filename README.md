@@ -26,7 +26,7 @@ Badge [source](https://shields.io/)
   - [Methods](#methods)
   - [Tech Stack](#tech-stack)
   - [Quick glance at the results](#quick-glance-at-the-results)
-  - [Conclusion](#lessons-learned-and-recommendation)
+  - [Conclusion](#conclusion)
   - [Improvements](#limitation-and-what-can-be-improved)
   - [Explore the notebook](#explore-the-notebook)
   - [Deployment on streamlit](#deployment-on-streamlit)
@@ -79,7 +79,7 @@ Correlation between the features.
 
 Confusion matrix of gradient boosting classifier.
 
-![Confusion matrix](assets/confusion_matrix.png)
+![Confusion matrix](assets/Confusion%20Matrix.png)
 
 
 Top 3 models (with default parameters)
@@ -97,7 +97,7 @@ Top 3 models (with default parameters)
 
 - **The final model used for this project: Logisitc Regression**
 - **Evaluaion Metric used: Accuracy Score**
-- **Why choose Accuracy as an evaluation metric **:
+- **Why choose Accuracy as an evaluation metric: **
 
  Accuracy is the most straightforward evaluation metric that measures the percentage of correct predictions made by the model. It is calculated by dividing the number of correctly predicted instances by the total number of instances in the dataset.
 
@@ -110,7 +110,7 @@ Recall: Recall is a metric that measures the proportion of correctly predicted p
 
 F1 Score: The F1 score is the harmonic mean of precision and recall. It combines both metrics into a single score that balances both precision and recall. The F1 score is a good metric to use when you want to evaluate the overall performance of a model and compare it to other models. The F1 score ranges from 0 to 1, with a higher value indicating better performance.
 
-    ***Conclusion***: 
+## Conclusion
 
 
  **Lessons learned and recommendation**
@@ -126,51 +126,6 @@ F1 Score: The F1 score is the harmonic mean of precision and recall. It combines
 - Retrain the model without the least predictive features
 
 
-
-## Run Locally
-Initialize git
-
-```bash
-git init
-```
-
-
-Clone the project
-
-```bash
-git clone https://github.com/beersk1/mobile-price-prediciton-classification.git
-```
-
-enter the project directory
-
-```bash
-cd mobile-price-prediciton-classification
-```
-
-Create a conda virtual environment and install all the packages from the environment.yml (recommended)
-
-```bash
-conda env create --prefix <env_name> --file assets/environment.yml
-```
-
-Activate the conda environment
-
-```bash
-conda activate <env_name>
-```
-
-List all the packages installed
-
-```bash
-conda list
-```
-
-Start the streamlit server locally
-
-```bash
-streamlit run price_prediction.py
-```
-If you are having issue with streamlit, please follow [this tutorial on how to set up streamlit](https://docs.streamlit.io/library/get-started/installation)
 
 ## Explore the notebook
 
