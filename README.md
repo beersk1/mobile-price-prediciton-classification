@@ -1,9 +1,9 @@
 ![banner](assets/Credit_card_approval_banner.png)
 
 
-![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
-![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Credit-card-approval-prediction-classification)
-![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Credit-card-approval-prediction-classification)
+![Python version](https://img.shields.io/badge/Python%20version-3.11%2B-lightgrey)
+![GitHub last commit](https://img.shields.io/github/last-commit/beersk1/mobile-price-prediciton-classification)
+![GitHub repo size](https://img.shields.io/github/repo-size/beersk1/mobile-price-prediciton-classification)
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-MultiClass%20Classification-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R](https://colab.research.google.com/drive/1_ETi9LN3365WHMoJJRmJIrjhch6wyhJu?usp=sharing))
@@ -138,13 +138,13 @@ git init
 Clone the project
 
 ```bash
-git clone https://github.com/semasuka/Credit-card-approval-prediction-classification.git
+git clone https://github.com/beersk1/mobile-price-prediciton-classification.git
 ```
 
 enter the project directory
 
 ```bash
-cd Credit-card-approval-prediction-classification
+cd mobile-price-prediciton-classification
 ```
 
 Create a conda virtual environment and install all the packages from the environment.yml (recommended)
@@ -168,7 +168,7 @@ conda list
 Start the streamlit server locally
 
 ```bash
-streamlit run cc_approval_pred.py
+streamlit run price_prediction.py
 ```
 If you are having issue with streamlit, please follow [this tutorial on how to set up streamlit](https://docs.streamlit.io/library/get-started/installation)
 
