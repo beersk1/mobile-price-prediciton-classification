@@ -129,7 +129,7 @@ F1 Score: The F1 score is the harmonic mean of precision and recall. It combines
 
 ## Explore the notebook
 
-To explore the notebook file [here](https://nbviewer.org/github/semasuka/Credit-card-approval-prediction-classification/blob/main/Credit_card_approval_prediction.ipynb)
+To explore the notebook file [here](https://github.com/beersk1/mobile-price-prediciton-classification/blob/main/mobile_price_prediction.ipynb)
 
 ## Deployment on streamlit
 
