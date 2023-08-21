@@ -1,5 +1,4 @@
 
-
 ![Python version](https://img.shields.io/badge/Python%20version-3.11%2B-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/beersk1/mobile-price-prediciton-classification)
 ![GitHub repo size](https://img.shields.io/github/repo-size/beersk1/mobile-price-prediciton-classification)
