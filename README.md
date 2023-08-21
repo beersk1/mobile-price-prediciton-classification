@@ -1,4 +1,3 @@
-![banner](assets/Credit_card_approval_banner.png)
 
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.11%2B-lightgrey)
